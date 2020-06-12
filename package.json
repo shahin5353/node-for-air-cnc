@@ -1,0 +1,20 @@
+{
+  "name": "node-for-air-cnc",
+  "version": "1.0.0",
+  "description": "This is used just for manage some api for air-cnc site with node & mongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahin Mahmud",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "nodemon": "^2.0.4"
+  }
+}
